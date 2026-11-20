@@ -58,6 +58,36 @@ adb install -r app/build/outputs/apk/debug/app-debug.apk
 2. Open the app → **Start** → allow Camera and notifications.
 3. On another device on the same Wi-Fi, open `http://ipcam.local:8080` or `http://<phone-IP>:8080`.
 
+## How to use (step by step)
+
+**1. Set up the camera phone**
+- Install `BabyCam-v1.0.apk` from the [Releases](../../releases) page (allow installing from unknown sources).
+- Open the app, press **Start** and allow Camera and notifications. The app then shows two addresses: `http://ipcam.local:8080/` and `http://<phone-IP>:8080/`.
+- Keep the phone on its charger, and turn off battery optimization for BabyCam in Android settings so the system does not stop it at night.
+
+**2. Place the phone**
+- Mount it above or beside the cot so the whole cot is in view.
+- Use **Rotate 90°** on the control page if the picture is sideways.
+
+**3. Open it on the parent's phone**
+- Connect to the **same Wi-Fi** and open one of the two addresses in any browser.
+- If `ipcam.local` does not open (some Android phones do not support `.local` names), use the number address shown in the app.
+
+**4. Turn on the alarm**
+- The motion alarm is **OFF by default**. Tap **Motion alarm** to turn it on — browsers only allow sound after you tap the page.
+- Tap **Buzz** to test that you can hear it.
+
+**5. Set the motion zone and sensitivity**
+- **Drag on the image** to draw a box around the cot, so movement elsewhere (curtains, a pet, people walking by) does not trigger the alarm. **Clear zone** removes it.
+- Adjust **Sensitivity** until normal breathing does not trigger it but turning over does.
+
+**6. At night**
+- Raise **Brightness** and keep a small night light on: a phone camera cannot see in complete darkness.
+
+**Important**
+- Keep the page open and the parent's phone screen on; the alarm plays from that page.
+- This is a helper, not a medical device, and it does not replace watching your child.
+
 ## Notes
 
 - Android always shows a notification while the camera is in use; this is required by the system.
