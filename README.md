@@ -1,5 +1,7 @@
 # BabyCam — Turn an old Android phone into a Wi-Fi baby monitor
 
+**English** | [فارسی](README.fa.md)
+
 BabyCam turns a spare Android phone into a network camera that you can watch and control from the browser of any device on the same Wi-Fi — **no app on the viewer, no cloud server, no account, nothing stored**. It uses only the Android framework (no third-party libraries).
 
 Main use: put the phone above a baby's cot. As soon as the baby moves, the web page on the parent's phone shakes and sounds an alarm, so you notice before the baby falls or as soon as they wake up.
