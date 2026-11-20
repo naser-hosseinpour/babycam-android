@@ -1,0 +1,16 @@
+# Gradle / Android build output
+.gradle/
+build/
+*/build/
+*.apk
+*.aab
+*.log
+
+# Machine-specific
+local.properties
+.idea/
+*.iml
+.DS_Store
+
+# Personal notes
+HANDOFF.md
